@@ -1,0 +1,14 @@
+.App h1{
+  text-align: center;
+}
+.user-cards-container {
+  display: flex;
+  gap: 30px;  
+  margin-bottom: 2px;  
+}
+.counter-container {
+  
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
