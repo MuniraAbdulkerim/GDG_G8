@@ -1,4 +1,4 @@
-.App h1{
+.App h1 ,.App h2{
   text-align: center;
 }
 .user-cards-container {
@@ -12,7 +12,11 @@
   justify-content: center;
   text-align: center;
 }
-.group-members-container{
+.group-members-container ,.App h4{
   display: flex;
-  justify-content: center;
+  margin-left: 13em;
+  
+}
+.group-members-container{
+  margin-bottom: 10em;
 }

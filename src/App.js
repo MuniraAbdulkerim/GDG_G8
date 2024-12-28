@@ -1,12 +1,15 @@
 import React from 'react';
 import './App.css';
-import Week1App from './week-1/week1app';  
+import Week2App from './week-2/Task-3/week2app'; 
+import Week3App from './week-3/week3apps';  
 
 function App() {
   return (
     <div className="App">
-      <Week1App /> 
+      <Week2App /> 
+      <Week3App />
     </div>
+    
   );
 }
 

@@ -4,12 +4,14 @@ import './Task-1/UserCard.css';
 import UserCard from './Task-1/UserCard';  
 import Counter from './Task-2/Counter';
 import './Task-2/Counter.css';
-import GroupMembers from './Task-3/GroupMember';
 
-function Week1App() {
+function Week3App() {
   return (
     <div className="App">
-      <h1>Task1 </h1>
+      <h1>Week -3 </h1>
+      <h2>Task1 </h2>
+      <h3>Props </h3>
+    
 
   
       <div className="user-cards-container">
@@ -32,17 +34,15 @@ function Week1App() {
           backgroundColor="lightblue" 
         />
       </div>
-      <h1>Task 2</h1>
+      <h2>Task 2</h2>
+      <h2>State </h2>
       <div className="counter-container">
         
         <Counter />
       </div>
-      <h1>Task 3</h1>
-      <div className="group-members-container">
-        <GroupMembers /> 
-      </div>
+      
     </div>
   );
 }
 
-export default Week1App;
+export default Week3App;
