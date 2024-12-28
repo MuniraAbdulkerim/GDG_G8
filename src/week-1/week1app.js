@@ -4,6 +4,7 @@ import './Task-1/UserCard.css';
 import UserCard from './Task-1/UserCard';  
 import Counter from './Task-2/Counter';
 import './Task-2/Counter.css';
+import GroupMembers from './Task-3/GroupMember';
 
 function Week1App() {
   return (
@@ -35,6 +36,10 @@ function Week1App() {
       <div className="counter-container">
         
         <Counter />
+      </div>
+      <h1>Task 3</h1>
+      <div className="group-members-container">
+        <GroupMembers /> 
       </div>
     </div>
   );
