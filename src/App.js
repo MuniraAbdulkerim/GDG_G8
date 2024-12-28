@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import Week2App from './week-2/Task-3/week2app'; 
+import Week2App from './week-2/Task-1/week2app'; 
 import Week3App from './week-3/week3apps';  
 
 function App() {
